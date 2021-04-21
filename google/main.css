@@ -1,0 +1,220 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100%;
+}
+
+#tum {
+  height: 100%;
+  width: 100%;
+}
+
+#tum #ust {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 10px 40px 0 0;
+}
+
+#tum #ust a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #29293d;
+  cursor: pointer;
+}
+
+#tum #ust a:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+#tum #ust img {
+  width: 24px;
+  margin: 0 7px;
+  cursor: pointer;
+}
+
+#tum #ust img:hover {
+  opacity: 0.85;
+}
+
+#tum #ust a.button {
+  padding: 7px 7px;
+  background: #3e84f4;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+#tum #orta1 {
+  margin-top: 80px;
+  width: 100%;
+  height: 250px;
+}
+
+#tum #orta1 #logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+#tum #orta1 #arama {
+  margin: auto;
+  width: 584px;
+  height: 50.67px;
+  text-align: center;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+  border: 2px solid #bfbfbf;
+}
+
+#tum #orta1 #arama #ara_icon {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 5px;
+  top: 10px;
+}
+
+#tum #orta1 #arama #tus_takimi {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 48px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+#tum #orta1 #arama #mikrofon {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 5px;
+  bottom: 10px;
+  cursor: pointer;
+}
+
+#tum #orta1 #arama #yazi {
+  border: none;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 8px 30px;
+  width: 320px;
+  padding: 10px 80px 10px 37px;
+  cursor: text;
+}
+
+#tum #orta1 #arama #yazi:hover {
+  border: none;
+}
+
+#tum #orta2 {
+  width: 100%;
+  height: 470px;
+  margin: 20px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#tum #orta2 .button {
+  width: auto;
+  height: 20px;
+  text-align: center;
+  background: #f2f2f2;
+  margin: 0 5px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+#tum #orta2 .button:hover {
+  -webkit-box-shadow: 0 0 3px #000;
+          box-shadow: 0 0 3px #000;
+}
+
+#tum #alt1 {
+  width: auto;
+  height: 13px;
+  background: #e6e6e6;
+  padding: 8px 10px 8px 10px;
+}
+
+#tum #alt2 {
+  width: 100%;
+  height: 45px;
+  background: #e6e6e6;
+  border-top: 3px solid #d9d9d9;
+}
+
+#tum #alt2 a {
+  font: 13px arial;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#tum #alt2 a:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+#tum #alt2 #alt2_1 {
+  width: 48%;
+  height: 17px;
+  padding: 5px 0;
+  background: #e6e6e6;
+  float: left;
+  margin: 10px;
+}
+
+#tum #alt2 #alt2_2 {
+  width: 50%;
+  height: 17px;
+  padding: 13px 0;
+  background: #e6e6e6;
+  float: left;
+  text-align: right;
+  word-spacing: 20px;
+}
+/*# sourceMappingURL=main.css.map */

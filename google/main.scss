@@ -1,0 +1,167 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    min-height: 100%;
+}
+#tum{
+    height:100%;
+    width:100%;
+     #ust
+    {
+        display:flex;
+        justify-content:flex-end;
+        margin:10px 40px 0 0;
+        a{
+            text-decoration:none;
+            font-size:15px;
+            color:#29293d;
+            cursor:pointer;
+            &:hover{
+                text-decoration:underline;
+                opacity:0.85;
+            }
+        }
+        img{
+            width:24px;
+            margin:0 7px;
+            cursor:pointer;  
+            &:hover{
+                opacity:0.85;
+            }
+        }
+        a.button{
+           padding:7px 7px ;
+           background:#3e84f4; 
+           border-radius:2px;
+           font-weight:bold;
+           color: #fff;
+           cursor:pointer;
+        }
+        
+    }
+    #orta1{
+        margin-top:80px;
+        width:100%;
+        height:250px;
+        #logo{
+            flex:1;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            cursor:pointer;
+        }
+        #arama{
+            margin:auto;
+            width:584px;
+            height:50.67px;
+            text-align:center;
+            position:relative;
+            justify-content:center;
+            border-radius:30px;
+            border:2px solid #bfbfbf;
+            
+        #ara_icon
+        {
+            position: absolute;
+            display: flex;
+            left:5px;
+            top:10px;
+        }
+        #tus_takimi
+        {
+            position: absolute;
+            display: flex;
+            right:48px;
+            bottom:10px;
+            cursor:pointer;
+        }
+        #mikrofon
+        {
+            position: absolute;
+            display: flex;
+            right:5px;
+            bottom:10px;
+            cursor: pointer;
+        }
+        #yazi{
+            border:none;
+            position:absolute;
+            display: flex;
+            margin:8px 30px;
+            width:320px;
+            padding:10px 80px 10px 37px; 
+            cursor:text;
+            &:hover{border:none;}
+        }
+    }  
+    }  
+        #orta2{
+            width:100%;
+            height:470px;
+            margin:20px 0 0 0;
+            display:flex;
+            justify-content:center;
+            .button{
+                width:auto;
+                height:20px;
+                text-align:center;
+                background:#f2f2f2;
+                margin:0 5px;
+                padding:15px 10px ;
+                cursor:pointer;
+            &:hover{box-shadow:0 0 3px #000;} 
+            }
+        }
+        #alt1{
+            width:auto;
+            height:13px;
+            display:flex;
+            background:#e6e6e6;
+            padding:8px 10px 8px 10px;
+        }
+        #alt2{
+            width:100%;
+            height:45px;
+            display:flex;
+            background:#e6e6e6;
+            border-top:3px solid #d9d9d9;
+            a{
+                font:13px arial;
+                color:#000;
+                text-decoration:none;
+                cursor:pointer;
+            &:hover{
+                text-decoration:underline;
+                opacity:0.85;
+            }
+            }
+            #alt2_1{
+                width:48%;
+                height:17px;
+                display:flex;
+                padding:5px 0;
+                background:#e6e6e6;
+                float:left;
+                margin:10px;
+                
+            }
+            #alt2_2{
+                width:50%;
+                height:17px;
+                display:flex;
+                justify-content:end;
+                padding:13px 0;
+                background:#e6e6e6;
+                float:left;
+                text-align: right;
+                word-spacing:20px;     
+            }
+        }
+}
